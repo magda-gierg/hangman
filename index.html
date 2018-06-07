@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Hangman!</title>
+</head>
+<body>
+ <h1>Hangman!</h1>
+ <script>
+ // Create an array of words
+ var words = [
+ "javascript",
+ "monkey",
+ "amazing",
+ "pancake"
+ ];
+ // Pick a random word
+ var word = words[Math.floor(Math.random() * words.length)];
+ // Set up the answer array
+ var answerArray = [];
+ for (var i = 0; i < word.length; i++) {
+ answerArray[i] = "_";
+ }
+ var remainingLetters = word.length;
+
+ </script>
+</body>
+</html>
